@@ -147,12 +147,6 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'json',
         },
-        'file': {
-            'level': 'ERROR',
-            'class': 'logging.FileHandler',
-            'filename': '/tmp/error.log',
-            'formatter': 'json',
-        },
     },
     'loggers': {
         'django': {
